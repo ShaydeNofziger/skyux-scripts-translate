@@ -1,13 +1,9 @@
 Clear-Host
 
+$SubscriptionKey = ''
 $ModuleName = 'Skyux.Translate'
 $PathToModule = "$PSScriptRoot\${ModuleName}.psm1"
 $PathToSourceAssetsLocalesDirectory = "$PSScriptRoot\locales\"
-
-# Install-Module Microsoft.PowerShell.SecretManagement
-# Set-Secret -Name 'az_cognitive_services_subscription_key' -SecureStringSecret $SecureString
-
-$SubscriptionKey = Get-Secret -Name 'az_cognitive_services_subscription_key' | ConvertFrom-SecureString -AsPlainText
 
 Remove-Module -Name $ModuleName -ErrorAction SilentlyContinue
 Import-Module $PathToModule -ErrorAction Stop
