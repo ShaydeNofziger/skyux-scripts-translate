@@ -1,0 +1,878 @@
+{
+  "auth-page-title": {
+    "_description": "The page title for the authentication website",
+    "message": "Blackbaud - Authentifizierung"
+  },
+  "back": {
+    "_description": "The text for the link that will take the user back to the previous page",
+    "message": "Zurück"
+  },
+  "back-to-signin": {
+    "_description": "The text for the link that will take the user from the current page back to the sign-in page",
+    "message": "Zurück zur Anmeldung"
+  },
+  "cancel-link": {
+    "_description": "The text for the link to cancel out of the current page",
+    "message": "Abbrechen"
+  },
+  "copyright-text": {
+    "_description": "The text for the copyright",
+    "message": "Blackbaud, Inc. Alle Rechte vorbehalten"
+  },
+  "confirm-btn": {
+    "_description": "The text for a confirm button",
+    "message": "Bestätigen"
+  },
+  "use-idp-email-address": {
+    "_description": "Delegate logging in to using a user's idp",
+    "message": "Bestätigen Sie die E-Mail-Adresse, um sich über den Identitätsanbieter anzumelden und Ihrer Organisation die Verwaltung Ihres Zugriffs zu ermöglichen."
+  },
+  "confirm-password-label": {
+    "_description": "The label for the confirm password field",
+    "message": "Kennwort bestätigen"
+  },
+  "confirm-password-required": {
+    "_description": "The text to indicate the confirm password field is required",
+    "message": "Bitte bestätigen Sie Ihr Passwort."
+  },
+  "email-address-format": {
+    "_description": "The text that indicates what format is expected for the email address",
+    "message": "Formatieren Sie die Adresse wie 'name@domain.com'."
+  },
+  "email-address-label": {
+    "_description": "The label for the email address field",
+    "message": "E-Mail-Adresse"
+  },
+  "email-address-required": {
+    "_description": "The text that indicates the email address field is required",
+    "message": "Geben Sie Ihre E-Mail-Adresse ein."
+  },
+  "first-name-label": {
+    "_description": "The label for the first name field",
+    "message": "Vorname"
+  },
+  "first-name-required": {
+    "_description": "The text that indicates the first name field is required",
+    "message": "Geben Sie Ihren Vornamen ein."
+  },
+  "invalid-link": {
+    "_description": "The text to indicate that the link is no longer valid",
+    "message": "Der Link ist nicht mehr gültig."
+  },
+  "last-name-label": {
+    "_description": "The label for the last name field",
+    "message": "Nachname"
+  },
+  "last-name-required": {
+    "_description": "The text that indicates the last name field is required",
+    "message": "Geben Sie Ihren Nachnamen ein."
+  },
+  "new-password": {
+    "_description": "Label for new password field",
+    "message": "Neues Passwort"
+  },
+  "or": {
+    "_description": "The text that separates database sign in option from social sign in options",
+    "message": "Oder"
+  },
+  "password-confirm-password-mismatch": {
+    "_description": "The text to indicate that the password and confirm password do not match",
+    "message": "'Passwort bestätigen' und 'Passwort' stimmen nicht überein."
+  },
+  "password-label": {
+    "_description": "The label for the password field",
+    "message": "Passwort"
+  },
+  "password-length-requirement": {
+    "_description": "The text to indicate the password is too short",
+    "message": "Das Kennwort ist nicht lang genug."
+  },
+  "password-required": {
+    "_description": "The text that indicates the password field is required",
+    "message": "Geben Sie Ihr Passwort ein."
+  },
+  "password-strength-requirement": {
+    "_description": "The text to indicate the password is too short",
+    "message": "Das Kennwort entspricht nicht den Spezifikationen."
+  },
+  "powered-by": {
+    "_description": "The label for powered by text",
+    "message": "Powered by"
+  },
+  "required-indicator": {
+    "_description": "Used to indicate that a field is required",
+    "message": "*"
+  },
+  "signin": {
+    "_description": "The text for the link that will take the user from the current page to the sign-in page.  This text is used instead of back-to-sign-in when something has been successfully completed (such as confirming an email)",
+    "message": "Anmelden"
+  },
+  "signin-help-url": {
+    "_description": "The text for the authentication help link",
+    "message": "Benötigen Sie Hilfe?"
+  },
+  "unknown-error": {
+    "_description": "The text that is displayed when an unknown error has occurred",
+    "message": "Ein unbekannter Fehler ist aufgetreten. <a href='http://status.blackbaud.com/' target='_blank'>Überprüfen Sie den Status</a>"
+  },
+  "account-locked-page-title": {
+    "_description": "The page title for the account locked page",
+    "message": "{0} - Ihr Konto wurde gesperrt"
+  },
+  "account-locked-different-account-link": {
+    "_description": "The text for the link that will let the user sign in with a different email when their account is locked",
+    "message": "Melden Sie sich mit einer anderen E-Mail an"
+  },
+  "account-locked-inactivity-explanation": {
+    "_description": "The explanation text when the account has been locked due to inactivity",
+    "message": "Ihr Konto wurde aufgrund von Inaktivität gesperrt. Um zu entsperren, setzen Sie Ihr Passwort zurück. "
+  },
+  "account-locked-security-explanation": {
+    "_description": "The explanation text when the account has been locked due to security reasons",
+    "message": "Aus Sicherheitsgründen wurde Ihr Konto gesperrt.  Bitte setzen Sie Ihr Passwort zurück."
+  },
+  "account-locked-brute-force-explanation": {
+    "_description": "The explanation text when the account has been locked due to too many failed sign-in attempts",
+    "message": "Ihr Konto wurde aufgrund zu vieler fehlgeschlagener Anmeldeversuche gesperrt. Um zu entsperren, setzen Sie Ihr Passwort zurück."
+  },
+  "account-locked-reset-password-link": {
+    "_description": "The text for the link that will let the user reset their password when their account has been locked",
+    "message": "Kennwort zurücksetzen"
+  },
+  "account-locked-inactivity-title": {
+    "_description": "The account locked page title when the account has been locked due to inactivity",
+    "message": "Ist 'ne Weile her!"
+  },
+  "account-locked-security-title": {
+    "_description": "The account locked page title when the account has been locked due to security reasons",
+    "message": "Gesperrtes Konto"
+  },
+  "account-locked-brute-force-title": {
+    "_description": "The account locked page title when the account has been locked due to too many failed sign-in attempts",
+    "message": "Zu viele fehlgeschlagene Anmeldungen"
+  },
+  "awaiting-email-confirmation-page-title": {
+    "_description": "The page title for the awaiting email confirmation page",
+    "message": "{0} - Bestätigen Sie Ihre Identität"
+  },
+  "awaiting-email-confirmation-instructions": {
+    "_description": "The awaiting email confirmation instructional text",
+    "message": "Wir haben Ihnen eine E-Mail geschickt, um zu bestätigen, dass Sie die Adresse besitzen. Warten Sie nicht zu lange, da diese E-Mail in 24 Stunden abläuft."
+  },
+  "awaiting-email-confirmation-junk": {
+    "_description": "The text to inform the user to check their junk and spam folders if the confirmation email is not received",
+    "message": "Sie sollten die Bestätigungs-E-Mail innerhalb von 5 Minuten erhalten. Wenn nicht, stellen Sie sicher, dass die obige E-Mail-Adresse korrekt ist, und überprüfen Sie Ihren Junk-Ordner."
+  },
+  "awaiting-email-confirmation-resend": {
+    "_description": "The text for the button on the awaiting email confirmation page that re-sends a confirmation email to the user",
+    "message": "E-Mail erneut senden"
+  },
+  "awaiting-email-confirmation-sent": {
+    "_description": "The text for the button on the awaiting email confirmation page that indicates a confirmation email has been re-sent to the user",
+    "message": "E-Mail wurde gesendet!"
+  },
+  "awaiting-email-confirmation-verify": {
+    "_description": "The awaiting email confirmation page title",
+    "message": "Lassen Sie uns Ihre Identität bestätigen"
+  },
+  "awaiting-email-confirmation-rate-limit": {
+    "_description": "The page title for the awaiting email confirmation page",
+    "message": "Sie können die Bestätigungs-E-Mail nicht erneut senden, da Sie sie in der letzten Stunde zu oft gesendet haben. Versuchen Sie es bald noch einmal."
+  },
+  "awaiting-email-confirmation-resend-error": {
+    "_description": "The page title for the awaiting email confirmation page",
+    "message": "Irgendetwas ging schief, indem die E-Mail erneut gesendet wurde."
+  },
+  "complete-email-change-page-title": {
+    "_description": "The page title for the complete email change page",
+    "message": "Blackbaud - Komplettes Ändern Ihrer E-Mail"
+  },
+  "complete-email-change-title": {
+    "_description": "The complete email change page title",
+    "message": "E-Mail-Adresse ändern"
+  },
+  "complete-email-change-email-taken": {
+    "_description": "The text to indicate that the email has already been taken",
+    "message": "Für diese E-Mail-Adresse ist bereits ein Konto vorhanden."
+  },
+  "complete-email-change-message-failure": {
+    "_description": "The text to indicate that something went wrong trying to change the user's email",
+    "message": "Etwas ging schief mit dem Ändern Ihrer E-Mail."
+  },
+  "complete-email-change-message-success": {
+    "_description": "The text to indicate that the user's email was successfully changed",
+    "message": "Ihre E-Mail wurde erfolgreich geändert!"
+  },
+  "complete-email-confirmation-page-title": {
+    "_description": "The page title for the complete email confirmation page",
+    "message": "{0} - Bestätigen Sie Ihre E-Mail-"
+  },
+  "complete-email-confirmation-title": {
+    "_description": "The complete email confirmation page title",
+    "message": "Überprüfen der E-Mail-Adresse"
+  },
+  "complete-email-confirmation-message-failure": {
+    "_description": "The text to indicate that something went wrong trying to confirm the user's email",
+    "message": "Bei der Bestätigung Ihrer E-Mail ist etwas schief gelaufen."
+  },
+  "complete-email-confirmation-message-success": {
+    "_description": "The text to indicate that the user's email was successfully confirmed",
+    "message": "Ihre E-Mail wurde erfolgreich bestätigt!"
+  },
+  "complete-email-confirmation-message-success-redirect": {
+    "_description": "The text to indicate that the user's email was successfully confirmed and the user will be redirected",
+    "message": "Ihre E-Mail wurde erfolgreich bestätigt! Sie werden in Kürze weitergeleitet."
+  },
+  "default-org-name": {
+    "_description": "The default organization name when none has been provided.",
+    "message": "Ihre Organisation"
+  },
+  "enforce-enterprise-explanation": {
+    "_description": "Text to explain that a user has to sign in with their organization's IdP.",
+    "message": "Um sich mit der E-Mail-Adresse {0} anzumelden, verwenden Sie die Anmeldung der Organisation."
+  },
+  "enforce-enterprise-label": {
+    "_description": "The label for the sign in with enterpise account button",
+    "message": "Melden Sie sich mit"
+  },
+  "enforce-enterprise-page-title": {
+    "_description": "The page title for the enforce enterprise page",
+    "message": "{0} - Organisationsanmeldung verwenden"
+  },
+  "enforce-enterprise-test-explanation": {
+    "_description": "Text to explain that a user has to sign in with their organization's IdP in test mode.",
+    "message": "Um das Single Sign-On (SSO) von {0} mit Blackbaud zu testen, melden Sie sich über ihr Login an."
+  },
+  "error-connection-disabled": {
+    "_description": "The error message to display when an enterprise connection has been disabled.",
+    "message": "Ihr Konto verwendet Ihre Organisationsanmeldeinformationen nicht mehr. Melden Sie sich mit Ihrer E-Mail-Adresse und Ihrem neuen Passwort an."
+  },
+  "error-connection-not-found": {
+    "_description": "The error message to display when an enterprise connection is not found.",
+    "message": "<b>Diese Verbindung ist nicht vorhanden.</b><br>Überprüfen Sie den 'sso='-Teil der URL auf Tippfehler."
+  },
+  "error-gsuite-configuration": {
+    "_description": "Error to show when a G Suite connection is being configured.",
+    "message": "Ihre Organisation richtet derzeit Single Sign-On (SSO) mit Google G-Suite ein. Bitte kommen Sie später wieder."
+  },
+  "error-gsuite-configuration-title": {
+    "_description": "Error title to show when a G Suite connection is being configured.",
+    "message": "Sie können sich im Moment leider nicht bei Google anmelden."
+  },
+  "error-missing-cookie": {
+    "_description": "The error message to display when cookies are missing.",
+    "message": "Stellen Sie sicher, dass Cookies aktiviert sind, und melden Sie sich erneut an."
+  },
+  "error-sso-user-exists": {
+    "_description": "The error messgae to display when an enterprise user attempts to sign in with an email already claimed in their IdP.",
+    "message": "Sie können diese E-Mail-Adresse nicht verwenden, da sie von einer anderen Person in Ihrem Identitätsanbieter verwendet wird. Wenden Sie sich an Ihren IT-Administrator, um Unterstützung zu erhalten."
+  },
+  "error-sso-config": {
+    "_description": "The error messgae to display when an enterprise user attempts to sign in with azure, but the Idp is misconfigured.",
+    "message": "Die SSO-Verbindung Ihrer Organisation ist fehlgeschlagen. Wenden Sie sich mit diesen Fehlerdetails an Ihren IT-Administrator: {0}"
+  },
+  "error-unknown": {
+    "_description": "The error message to display when an unknown error has occurred.",
+    "message": "und kommen Sie später zurück."
+  },
+  "error-unknown-status-link-text": {
+    "_description": "The text to display as the link to the status page",
+    "message": "Bleiben Sie auf dem laufenden Stand"
+  },
+  "forgot-password-page-title": {
+    "_description": "The page title for the forgot password page",
+    "message": "{0} - Passwort vergessen?"
+  },
+  "forgot-password-title": {
+    "_description": "The forgot password page title before the forgot password email has been sent",
+    "message": "Sie haben Ihr Passwort vergessen?"
+  },
+  "forgot-password-instructions": {
+    "_description": "The forgot password instructional text before the forgot password email has been sent",
+    "message": "Geben Sie einfach die E-Mail-Adresse ein, mit der Sie sich angemeldet haben, und wir senden ihr einen Reset-Link."
+  },
+  "forgot-password-send-button": {
+    "_description": "The text for the button to send a forgot password email",
+    "message": "Senden"
+  },
+  "forgot-password-title-email-sent": {
+    "_description": "The forgot password page title after the forgot password email has been sent",
+    "message": "Wiederherstellen Ihres Passworts"
+  },
+  "forgot-password-instructions-email-sent": {
+    "_description": "The forgot password instructional text after the forgot password email has been sent",
+    "message": "Wir haben eine E-Mail zum Zurücksetzen des Kennworts an:"
+  },
+  "forgot-password-junk": {
+    "_description": "The text to inform the user to check their junk folder if the forgot password email is not received",
+    "message": "Folgen Sie den Anweisungen in der E-Mail, um Ihr Passwort zurückzusetzen. Wenn Sie die E-Mail nicht innerhalb von 5 Minuten erhalten, stellen Sie sicher, dass die obige Adresse richtig geschrieben ist, oder überprüfen Sie Ihren Junk-Ordner."
+  },
+  "forgot-password-apple-user": {
+    "_description": "The text that shows when an apple user requests a password reset email",
+    "message": "Ihr Konto verwendet Apple, um sich zu authentifizieren. Um Ihr Kennwort zurückzusetzen, gehen Sie auf <a href='https://appleid.apple.com' target='_blank'>die Apple-Website</a>."
+  },
+  "forgot-password-google-oauth2-user": {
+    "_description": "The text that shows when a google user requests a password reset email",
+    "message": "Ihr Konto verwendet Google, um sich zu authentifizieren. Um Ihr Passwort zurückzusetzen, gehen Sie auf <a href='http://accounts.google.com' target='_blank'>die Google-Website</a>."
+  },
+  "forgot-password-rate-limit": {
+    "_description": "The error message to display when a user has reached the send reset password rate limit",
+    "message": "Sie können Ihr Kennwort nicht zurücksetzen, da Sie es in den letzten 24 Stunden zu oft zurückgesetzt haben. Versuchen Sie es bald noch einmal."
+  },
+  "google-sign-in-button": {
+    "_description": "The text for the button to sign in with Google",
+    "message": "Anmelden bei Google"
+  },
+  "google-sign-up-button": {
+    "_description": "The text for the button to sign up with Google",
+    "message": "Registrieren Sie sich bei Google"
+  },
+  "apple-sign-in-button": {
+    "_description": "The text for the button to sign in with Apple",
+    "message": "Anmelden bei Apple"
+  },
+  "apple-sign-up-button": {
+    "_description": "The text for the button to sign up with Apple",
+    "message": "Registrieren Sie sich bei Apple"
+  },
+  "continue-with-apple-button": {
+    "_description": "The text for the button to continue signing in with Apple",
+    "message": "Weiter mit Apple"
+  },
+  "password-requirement-length-strength-line1": {
+    "_description": "The text that explains the password length requirement",
+    "message": "Muss mindestens 8 Zeichen und 3 der folgenden Zeichen enthalten:"
+  },
+  "password-requirement-capital-letter": {
+    "_description": "The text to indicate that a capital letter is one of the 3 password strenght requirements",
+    "message": "- Großbuchstabe"
+  },
+  "password-requirement-lowercase-letter": {
+    "_description": "The text to indicate that a lowercase letter is one of the 3 password strenght requirements",
+    "message": "- Kleinbuchstabe"
+  },
+  "password-requirement-number": {
+    "_description": "The text to indicate that a number is one of the 3 password strenght requirements",
+    "message": "- Anzahl"
+  },
+  "password-requirement-special-character": {
+    "_description": "The text to indicate that a special character is one of three 3 password strenght requirements",
+    "message": "- Sonderzeichen (!, , , %, etc.)"
+  },
+  "reset-password-page-title": {
+    "_description": "The page title for the reset password page",
+    "message": "{0} - Zurücksetzen Ihres Passworts"
+  },
+  "reset-password-title": {
+    "_description": "The reset password page title",
+    "message": "Kennwort zurücksetzen"
+  },
+  "reset-password-complete-button": {
+    "_description": "The text for the button to complete a reset password request",
+    "message": "Senden"
+  },
+  "reset-password-success": {
+    "_description": "The text that shows when a user's password was successfully reset",
+    "message": "Ihr Passwort wurde erfolgreich zurückgesetzt!"
+  },
+  "reset-password-error": {
+    "_description": "The text that shows when something went wrong resetting the user's password",
+    "message": "Bei Ihrem Passwort-Reset ist etwas schief gelaufen."
+  },
+  "set-name-page-title": {
+    "_description": "The page title for the set name page",
+    "message": "{0} - Legen Sie Ihren Namen fest"
+  },
+  "set-name-title": {
+    "_description": "The set name page title",
+    "message": "Noch eine Sache..."
+  },
+  "set-name-instructions": {
+    "_description": "The set name instructional text",
+    "message": "Wie heißt Sie, um Ihre Erfahrung zu personalisieren?"
+  },
+  "set-name-update-button": {
+    "_description": "The text for the button to update the user's name",
+    "message": "aktualisieren"
+  },
+  "sign-in-page-title": {
+    "_description": "The page title for the home page",
+    "message": "{0} - Anmelden"
+  },
+  "sign-in-signed-out": {
+    "_description": "The text that shows when a user has signed out",
+    "message": "Sie haben sich erfolgreich abgemeldet."
+  },
+  "sign-in-social-signin-still-signed-in": {
+    "_description": "The text that shows when a social sign-in user has signed out but may still be signed into their social sign-in account",
+    "message": "Möglicherweise sind Sie weiterhin bei Ihrem {0}-Konto angemeldet. Wenn Sie sich vollständig abmelden möchten, müssen Sie "
+  },
+  "sign-in-enterprise-still-signed-in": {
+    "_description": "The text that shows when an enterprise user has signed out but may still be signed into their enterprise account",
+    "message": "Möglicherweise sind Sie weiterhin beim Identitätsanbieter Ihrer Organisation angemeldet. Um sich vollständig abzumelden, melden Sie sich durch {0} ab."
+  },
+  "sign-in-social-link": {
+    "_description": "The text for the link for a user to signout with their social sign-in",
+    "message": "Abmelden durch {0}."
+  },
+  "sign-in-inactivity": {
+    "_description": "The text that shows when a user has been automatically signed out due to inactivity",
+    "message": "Um Ihre Daten zu schützen, wurden Sie automatisch abgemeldet. Melden Sie sich erneut an, um weiter zu arbeiten."
+  },
+  "sign-in-forgot-password": {
+    "_description": "The text for the link to let the user reset their password",
+    "message": "Passwort vergessen?"
+  },
+  "sign-in-header": {
+    "_description": "The text for the header on the sign in page when custom branding is present",
+    "message": "Anmelden"
+  },
+  "sign-in-header-easy-button": {
+    "_description": "The text for the header on the sign in page when custom branding and an easy button are present",
+    "message": "Willkommen zurück"
+  },
+  "sign-in-button": {
+    "_description": "The text for the sign in button",
+    "message": "Anmelden"
+  },
+  "sign-in-need-an-account": {
+    "_description": "The text asking if a user needs an account",
+    "message": "Benötigen Sie ein Konto?"
+  },
+  "sign-in-create-account": {
+    "_description": "The text for the link to let the user create an account",
+    "message": "Anmelden"
+  },
+  "sign-in-different-account": {
+    "_description": "The text for the link to let the user sign in with a different email address",
+    "message": "Verwenden einer anderen E-Mail-Adresse"
+  },
+  "sign-in-invalid": {
+    "_description": "The text that shows when the user enters invalid credentials on sign in",
+    "message": "Überprüfen Sie die E-Mail-Adresse oder das Kennwort auf Tippfehler."
+  },
+  "sign-in-generic-error": {
+    "_description": "Generic error to show the user when we are not sure what went wrong",
+    "message": "Es tut uns leid, es ist etwas schief gelaufen. Versuchen Sie erneut, sich anzumelden, und wenden Sie sich an den Support, wenn dies erneut geschieht."
+  },
+  "sign-in-remember-my-email-checkbox-label": {
+    "_description": "Label for the remember my email checkbox",
+    "message": "Erinnern Sie sich an meine E-Mail"
+  },
+  "sign-in-mfa-error": {
+    "_description": "Alert shown when mfa setup errors",
+    "message": "Es tut uns leid, es ist etwas schief gelaufen. Melden Sie sich erneut an oder kommen Sie später zurück."
+  },
+  "sign-in-migrate-social-signin-success": {
+    "_description": "Alert shown when a user has just converted their social signin account.",
+    "message": "Sie haben {0} Authentifizierung erfolgreich deaktiviert! Bitte melden Sie sich mit Ihrem neuen Passwort an."
+  },
+  "sign-in-mfa-learn-more-explanation": {
+    "_description": "Alert shown for MFA learn more banner",
+    "message": "Fügen Sie eine zusätzliche Sicherheitsebene mit zweistufiger Authentifizierung hinzu!"
+  },
+  "sign-in-mfa-learn-more-button": {
+    "_description": "Text for the mfa learn more button",
+    "message": "Weitere Informationen"
+  },
+  "sign-out-page-title": {
+    "_description": "The page title for the sign out page",
+    "message": "{0} - Abmelden"
+  },
+  "sign-out-message": {
+    "_description": "The text that displays when a user is signing out",
+    "message": "Abmelden von Blackbaud..."
+  },
+  "sign-out-migration-enabling-message": {
+    "_description": "Message shown to users who opt-in to new sign in experience",
+    "message": "Vorbereiten Ihrer neuen Anmeldeerfahrung"
+  },
+  "sign-up-page-title": {
+    "_description": "The page title for the sign-up page",
+    "message": "{0} - Registrieren"
+  },
+  "sign-up-title": {
+    "_description": "The sign up page title",
+    "message": "Anmelden"
+  },
+  "sign-up-accept-invitation-title": {
+    "_description": "The sign up page title when a user is accepting an invitation",
+    "message": "Nehmen Sie Ihre Einladung an"
+  },
+  "sign-up-invitation-instructions": {
+    "_description": "The instructions on the sign up page when a user is accepting an invitation",
+    "message": "Sie wurden eingeladen, Blackbaud-Lösungen im Auftrag von {0} zu verwenden. Lassen Sie uns Ihr Konto erstellen, um loszulegen."
+  },
+  "sign-up-invitation-wrong-email-link": {
+    "_description": "The text for the link on the sign up page when the email on the invitation is incorrect",
+    "message": "Sind Sie das nicht?"
+  },
+  "sign-up-button": {
+    "_description": "The text for the button to sign a user up",
+    "message": "Anmelden"
+  },
+  "sign-up-user-exists-error": {
+    "_description": "The text for the error that shows when a user tries to sign up with an email address that has already been taken",
+    "message": "Der Benutzer ist bereits vorhanden."
+  },
+  "sign-up-blacklisted-password-error": {
+    "_description": "The text for the error when a user tries to sign up with a blackblisted password",
+    "message": "Bitte ändern Sie Ihr Passwort. Das aktuelle Kennwort ist zu häufig, um sicher zu sein."
+  },
+  "sign-up-empty-sanitized-first-name-error": {
+    "_description": "The text for the error when a user tries to sign up with a first name that becomes empty once sanitized",
+    "message": "Ihr Name darf keinen HTML-Code enthalten. Geben Sie einen anderen Vornamen ein."
+  },
+  "sign-up-empty-sanitized-last-name-error": {
+    "_description": "The text for the error when a user tries to sign up with a last name that becomes empty once sanitized",
+    "message": "Ihr Name darf keinen HTML-Code enthalten. Bitte geben Sie einen anderen Nachnamen ein."
+  },
+  "sign-up-generic-error": {
+    "_description": "Generic error to show for sign up when we are not sure what went wrong",
+    "message": "Es tut uns leid, es ist etwas schief gelaufen. Versuchen Sie erneut, sich anzumelden, und wenden Sie sich an den Support, wenn dies erneut geschieht."
+  },
+  "sign-up-terms-policy-agreement": {
+    "_description": "The text informing a user they are agreeing to Blackbaud's terms of use and privacy policy",
+    "message": "Wenn Sie weiter unten fortfahren, stimmen Sie der Blackbaud, Inc. zu."
+  },
+  "sign-up-terms-link": {
+    "_description": "The text for the link to Blackbaud's terms of user",
+    "message": "Nutzungsbedingungen"
+  },
+  "sign-up-terms-policy-joiner": {
+    "_description": "The text between the links for the terms of use and privacy policy",
+    "message": "Und"
+  },
+  "sign-up-terms-privacy-link": {
+    "_description": "The text for the link to Blackbaud's privacy policy",
+    "message": "Datenschutz."
+  },
+  "sign-up-already-have-account": {
+    "_description": "The text to display asking if a user already has an account",
+    "message": "Sie haben bereits ein Konto?"
+  },
+  "error-message": {
+    "_description": "The message we show on the error page",
+    "message": "Oops! Irgendetwas ist schief gelaufen"
+  },
+  "error-connection-configuration": {
+    "_description": "A message indicating the connection's configuration is invalid",
+    "message": "Es liegt ein Problem mit der Konfiguration der Verbindung vor."
+  },
+  "error-invalid-certificate": {
+    "_description": "A message indicating the connection's certificate is invalid",
+    "message": "Ihr Zertifikat ist ungültig. Wenden Sie sich an Ihren IT-Administrator, um ein neues Zertifikat in Ihre SSO-Verbindung hochzuladen."
+  },
+  "error-invalid-domain": {
+    "_description": "First half of the message indicating the user's domain is invalid",
+    "message": "Es tut uns leid, wir erkennen Ihre E-Mail-Domain nicht als eine, die von {0} verwendet wird. Bitte wenden Sie sich an Ihren IT-Administrator."
+  },
+  "error-user-configuration": {
+    "_description": "A message indicating the user's configuration is invalid",
+    "message": "Wenden Sie sich an Ihren IT-Administrator, um Ihre Single Sign-On-Konfiguration zu überprüfen."
+  },
+  "error-cross-origin": {
+    "_description": "A message indicating there was a cross origin authentication issue on sign in",
+    "message": "<a href='https://kb.blackbaud.com/articles/Article/114331' target='_blank'>Passen Sie Ihre Einstellungen in Internet Explorer</a>an, oder melden Sie sich mit einem anderen Browser an."
+  },
+  "error-nameid-1": {
+    "_description": "Message about updating NameID in the SSO config",
+    "message": "Lassen Sie Ihren IT-Administrator die <b>NameID</b> Ihrer SSO-Konfiguration überprüfen."
+  },
+  "error-nameid-2": {
+    "_description": "Message about what attribute to use from your IdP to identify users",
+    "message": "Ordnen Sie das gleiche Attribut zu, das Ihr IdP verwendet, um Benutzer bei der Anmeldung zu identifizieren, z. B. E-Mail oder user_id."
+  },
+  "error-email-address-1": {
+    "_description": "Message about updating Email address in the SSO config",
+    "message": "Lassen Sie Ihren IT-Administrator die <b>E-Mail-Adresse</b> Ihrer SSO-Konfiguration überprüfen."
+  },
+  "error-email-address-2": {
+    "_description": "Message about what attribute to use from your IdP to identify user's email address",
+    "message": "Ordnen Sie das gleiche Attribut zu, das Ihr IdP verwendet, um die eindeutige E-Mail-Adresse jedes Benutzers zu identifizieren, z. B. E-Mail oder EmailAddress."
+  },
+  "error-attribute-not-friendly": {
+    "_description": "The words 'Use attribute names, not friendly names.'",
+    "message": "Verwenden Sie Attributnamen, <i>keine</i> Anzeigenamen."
+  },
+  "error-still-stuck": {
+    "_description": "Link to troubleshooting help",
+    "message": "<i>Immer noch stecken?</i> <a href='https://www.blackbaud.com/files/support/helpfiles/admin/content/auth-saml-troubleshooting.html' target='_blank'>Beheben Sie die Verbindung</a>."
+  },
+  "turn-off-google-auth-page-title": {
+    "_description": "Page title for turn off Google auth page",
+    "message": "Blackbaud - Google Auth ausschalten"
+  },
+  "turn-off-google-authentication-title": {
+    "_description": "Header for turn off Google authentication page",
+    "message": "Deaktivieren der Google-Authentifizierung"
+  },
+  "turn-off-google-authentication-email-instructions": {
+    "_description": "The turn off Google authentication email instructional text",
+    "message": "Nachdem Sie die Google-Authentifizierung deaktiviert haben, können Sie Ihr Konto aktualisieren, um eine andere E-Mail-Adresse zu verwenden."
+  },
+  "turn-off-google-authentication-form-instructions": {
+    "_description": "The turn off Google authentication submit instructional text",
+    "message": "Nachdem Sie diese Änderung bestätigt haben, melden Sie sich mit Ihrem neuen Kennwort bei Ihrem Konto an."
+  },
+  "google-oauth2-display-name": {
+    "_description": "The user friendly display name for the google strategy",
+    "message": "Google"
+  },
+  "apple-display-name": {
+    "_description": "The user friendly display name for the apple strategy",
+    "message": "Apfel"
+  },
+  "turn-off-social-signin-page-title": {
+    "_description": "Page title for turn off social sign-in page",
+    "message": "Blackbaud - {0} Auth ausschalten"
+  },
+  "turn-off-social-signin-title": {
+    "_description": "Header for turn off social sign-in page",
+    "message": "Deaktivieren {0} Authentifizierung"
+  },
+  "turn-off-social-signin-email-instructions": {
+    "_description": "The turn off social sign-in email instructional text",
+    "message": "Nachdem Sie {0} Authentifizierung deaktiviert haben, können Sie Ihr Konto aktualisieren, um eine andere E-Mail-Adresse zu verwenden."
+  },
+  "turn-off-social-signin-form-instructions": {
+    "_description": "The turn off social sign-in submit instructional text",
+    "message": "Nachdem Sie diese Änderung bestätigt haben, melden Sie sich mit Ihrem neuen Kennwort bei Ihrem Konto an."
+  },
+  "continue": {
+    "_description": "The word continue",
+    "message": "Weiter"
+  },
+  "sign-in-to-product-with": {
+    "_description": "Text that appears above the enterprise easy button when we know what product a user is signing in to",
+    "message": "Melden Sie sich bei {0} mit"
+  },
+  "sign-in-with": {
+    "_description": "Text that appears above the enterprise easy button when we do not know what product a user is signing in to",
+    "message": "Melden Sie sich mit"
+  },
+  "sign-in-to-continue-to-product": {
+    "_description": "Text that appears above sign in when we know what product a user is signing in to",
+    "message": "weiter zu {0}"
+  },
+  "sign-in-to-accept-invitation": {
+    "_description": "Sign-in header when we know a user is signing in to accept an invitation",
+    "message": "Melden Sie sich an, um eine Einladung anzunehmen"
+  },
+  "turn-off-google-authentication-error": {
+    "_description": "The text that shows when something went wrong with converting a user's google account",
+    "message": "Etwas ging schief mit dem Deaktivieren Ihrer Google-Authentifizierung."
+  },
+  "turn-off-social-signin-error": {
+    "_description": "The text that shows when something went wrong with converting a user's social sign-in account",
+    "message": "Beim Deaktivieren der {0}-Authentifizierung ist etwas schief gelaufen."
+  },
+  "with": {
+    "_description": "The word 'with'",
+    "message": "Mit"
+  },
+  "migrate-user-heading": {
+    "_description": "Heading for the migrating users page",
+    "message": "Aktualisieren Sie Ihre Anmeldung"
+  },
+  "migrate-user-body": {
+    "_description": "Text describing why the user has arrived to this page",
+    "message": "DonorCentral verwendet jetzt Blackbaud ID, um sich anzumelden. Um das Update abzuschließen, setzen Sie Ihr Kennwort zurück."
+  },
+  "migrate-user-body-lower": {
+    "_description": "Text describing why the user has arrived to this page",
+    "message": "Diese E-Mail läuft in 1 Stunde ab."
+  },
+  "migrate-user-email": {
+    "_description": "The email associated with the user",
+    "message": "Wir senden eine Passwort-Reset-E-Mail an:"
+  },
+  "migrate-user-diff-signin": {
+    "_description": "Link text to switch to another email",
+    "message": "Melden Sie sich mit einer anderen E-Mail an"
+  },
+  "migrate-user-email-button": {
+    "_description": "Text on the reset email button",
+    "message": "Senden von Passwort-Reset-E-Mail"
+  },
+  "google-oauth2-error": {
+    "_description": "A message that will be displayed if a google user enters their email into the db user sign in form",
+    "message": "Diese E-Mail-Adresse verwendet ein Google-Konto. Um fortzufahren, wählen Sie 'Anmelden bei Google'."
+  },
+  "google-oauth2-signup-error": {
+    "_description": "A message that will be displayed if a google user enters their email into the db user sign in form",
+    "message": "Diese E-Mail-Adresse verwendet ein Google-Konto. Um fortzufahren, wählen Sie 'Registrieren bei Google'."
+  },
+  "apple-error": {
+    "_description": "A messsage that will be displayed if an apple user enters their email into the db user sign in form",
+    "message": "Diese E-Mail-Adresse verwendet ein Apple-Konto. Um fortzufahren, wählen Sie 'Anmelden bei Apple'."
+  },
+  "apple-signup-error": {
+    "_description": "A messsage that will be displayed if an apple user enters their email into the db user sign in form",
+    "message": "Diese E-Mail-Adresse verwendet ein Apple-Konto. Um fortzufahren, wählen Sie 'Registrieren bei Apple'."
+  },
+  "not-found-error": {
+    "_description": "A message that will be displayed if user enters an email address where no account exists",
+    "message": "Es gibt kein Konto mit dieser E-Mail-Adresse."
+  },
+  "use-different-email-button": {
+    "_description": "User will use a different email address to login",
+    "message": "Verwenden einer anderen E-Mail-Adresse"
+  },
+  "generic-idp-description": {
+    "_description": "The text to use to describe an identity provider when there is no display name associated with that identity provider",
+    "message": "Ein anderer Identitätsanbieter"
+  },
+  "email-has-managed-domain": {
+    "_description": "emails is currently managed by another domain",
+    "message": "{0} verwaltet die Domäne für "
+  },
+  "confirm-email-address": {
+    "_description": "Header for confirm user wants to use this email address",
+    "message": "E-Mail-Adresse bestätigen"
+  },
+  "use-different-email": {
+    "_description": "Ask user to use a different email address from the one provided",
+    "message": "Andernfalls verwenden Sie eine andere E-Mail-Adresse."
+  },
+  "username-password-authentication-signup-error": {
+    "_description": "The text for the error that shows when a user tries to sign up with an email address that has already been taken",
+    "message": "Der Benutzer ist bereits vorhanden."
+  },
+  "error-no-role-assigned": {
+    "_description": "The error text shown when a user has not been granted access to the client configured in their Azure AD",
+    "message": "Sie haben keine Zugriffsrechte auf die Anwendung. Es erfordert eine Rolle für die Blackbaud Single Sign-On-Anwendung in Ihrem Identitätsanbieter. Wenden Sie sich an Ihren IT-Administrator, um zugriff anzufordern."
+  },
+  "sign-in-with-apple-title": {
+    "_description": "The title to show on the confirm sign in with Apple page",
+    "message": "Anmelden bei Apple"
+  },
+  "sign-in-with-apple-explanation": {
+    "_description": "The explanatory text on the confirm sign in with Apple page",
+    "message": "Stellen Sie sicher, dass Sie <b>meine E-Mail-Adresse freigeben,</b> wenn Sie sich anmelden. Wenn nicht, anonymisiert Apple Ihre E-Mail-Adresse, die den Zugriff auf Ihre Lösung verweigern und wichtige E-Mails blockieren kann."
+  },
+  "invitation-signin-email-note": {
+    "_description": "A message displayed on the invitation-signin page to remind the user they need to sign into the account associated with the given email address on their invitation",
+    "message": "Sie müssen sich bei Ihrem {0} Konto mit der oben genannten E-Mail-Adresse anmelden, um diese Einladung anzunehmen."
+  },
+  "invite-error-non-matching-account": {
+    "_description": "The message displayed when a user attempts to accept an invitation while signed in and the invited account does not already exist.",
+    "message": "Aus Sicherheitsgründen kann diese Einladung nicht an andere E-Mail-Adressen weitergeleitet werden. Wenn Sie Zugriff auf die Datei '#ORGNAME' benötigen, wenden Sie sich an den ursprünglichen Eingeladenen."
+  },
+  "invite-error-non-matching-account-headline": {
+    "_description": "The headline displayed for non-matching account errors.",
+    "message": "Nicht Ihre Einladung?"
+  },
+  "invite-error-non-matching-account-exists": {
+    "_description": "The message displayed when a user attempts to accept an invitation while signed in, but that user does not match the invited user and the invited user already exists.",
+    "message": "Sie sind derzeit mit einem Konto angemeldet, das nicht mit der E-Mail-Adresse dieser Einladung übereinstimmt. Aus Sicherheitsgründen muss diese Einladung vom übereinstimmenden Konto angenommen werden."
+  },
+  "invite-error-non-matching-account-exists-headline": {
+    "_description": "The headline displayed for non-matching account exists errors.",
+    "message": "Konto stimmt nicht überein"
+  },
+  "invite-error-non-matching-google-account": {
+    "_description": "The message displayed when the user is signed into a Google account that does not match the invitation.",
+    "message": "Die E-Mail-Adresse in diesem Google-Konto stimmt nicht mit der Adresse überein, an die diese Einladung gesendet wurde."
+  },
+  "invite-error-non-matching-google-account-headline": {
+    "_description": "The headline displayed for non-matching google account errors.",
+    "message": "Nehmen Sie Ihre Einladung an"
+  },
+  "invite-error-non-matching-sso-account": {
+    "_description": "The message displayed when the user is signed into a SSO account that does not match the invitation.",
+    "message": "Die E-Mail-Adresse in diesem Organisationskonto stimmt nicht mit der E-Mail-Adresse überein, an die diese Einladung gesendet wurde."
+  },
+  "invite-error-non-matching-sso-account-headline": {
+    "_description": "The headline displayed for non-matching sso account errors.",
+    "message": "Nehmen Sie Ihre Einladung an"
+  },
+  "invite-error-expired": {
+    "_description": "The message displayed when a requested invitation has expired.",
+    "message": "Die angeforderte Einladung ist abgelaufen. Fordern Sie eine neue von Ihrem Administrator an."
+  },
+  "invite-error-expired-headline": {
+    "_description": "The headline displayed for expired invitation errors.",
+    "message": "Einladung ist abgelaufen"
+  },
+  "invite-error-notfound": {
+    "_description": "The message displayed when a requested invitation could not be found with the given invitation token.",
+    "message": "Eine gültige Einladung wurde nicht gefunden. Überprüfen Sie Ihre Einladungs-URL, und versuchen Sie es erneut. Wenn diese Meldung weiterhin angezeigt wird, fordern Sie eine neue Einladung von Ihrem Administrator an."
+  },
+  "invite-error-notfound-headline": {
+    "_description": "The headline displayed for notfound invitation errors.",
+    "message": "Einladung nicht gefunden"
+  },
+  "invite-error-general": {
+    "_description": "The message displayed when a generic or unexpected error occurs during the invitation process.",
+    "message": "Es gab ein Problem mit Ihrer Einladung. Versuchen Sie es später erneut, oder wenden Sie sich an Ihren Administrator."
+  },
+  "invite-error-general-headline": {
+    "_description": "The headline displayed for general invitation errors.",
+    "message": "Nehmen Sie Ihre Einladung an"
+  },
+  "invite-error-signin-google-redirect": {
+    "_description": "The redirect text displayed when an invite error is presented for a google user",
+    "message": "Melden Sie sich bei einem anderen Google-Konto an"
+  },
+  "invite-error-signin-matching-redirect": {
+    "_description": "The redirect text displayed when an invite error is presented for a matching account",
+    "message": "Melden Sie sich beim übereinstimmenden Konto an"
+  },
+  "invite-error-signin-organization-redirect": {
+    "_description": "The redirect text displayed when an invite error is presented for a matching organization account",
+    "message": "Anmelden bei einem anderen Organisationskonto"
+  },
+  "confirm-email-page-title": {
+    "_description": "The page title for the confirm email page",
+    "message": "{0} - Bestätigen Sie Ihre Identität"
+  },
+  "confirm-email-header-text": {
+    "_description": "The text for the header on the confirm email page",
+    "message": "Nehmen Sie Ihre Einladung an"
+  },
+  "confirm-email-instructions": {
+    "_description": "The text for the instructions on the confirm email page",
+    "message": "Wir haben Ihnen einen 6-stelligen Code per E-Mail erhalten, um Ihre Identität zu bestätigen. Geben Sie es unten ein, um mit Ihrer Lösung fortzufahren."
+  },
+  "confirm-email-access-code-label": {
+    "_description": "The label for the access code input",
+    "message": "6-stelliger Code"
+  },
+  "confirm-email-submit-button-text": {
+    "_description": "The text for the submit button on the confirm email page",
+    "message": "nächster"
+  },
+  "confirm-email-resend-link": {
+    "_description": "The text for the resend link",
+    "message": "Senden"
+  },
+  "confirm-email-resend-success": {
+    "_description": "The text for the resend link after the email was successfully sent",
+    "message": "E-Mail gesendet"
+  },
+  "confirm-email-valid-access-code-error": {
+    "_description": "The error message to display when the access code is not valid",
+    "message": "Der Code muss 6 Ziffern haben."
+  },
+  "confirm-email-confirm-access-code-error": {
+    "_description": "The error message to display when validating the access code fails",
+    "message": "Dieser Code stimmt nicht überein. Klicken Sie unten auf 'Resend', um einen neuen Code zu erhalten."
+  },
+  "confirm-email-resend-error": {
+    "_description": "The error message to display when re-sending the confirmation email fails",
+    "message": "Wir konnten keinen Bestätigungscode erneut senden. Bitte versuchen Sie es erneut."
+  },
+  "invitation-incorrect-email-page-title": {
+    "_description": "The page title for the invitation incorrect email page",
+    "message": "Blackbaud - Nicht Ihre Einladung?"
+  },
+  "invitation-incorrect-email-header": {
+    "_description": "The header text for the invitation incorrect email page",
+    "message": "Nicht Ihre Einladung?"
+  },
+  "invitation-incorrect-email-instructions": {
+    "_description": "The instructions on the invitation incorrect email page",
+    "message": "Aus Sicherheitsgründen kann diese Einladung nicht an andere E-Mail-Adressen weitergeleitet werden. Wenn Sie Zugriff auf {0} benötigen, wenden Sie sich an den ursprünglichen Eingeladenen."
+  }
+}
